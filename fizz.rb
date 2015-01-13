@@ -4,3 +4,10 @@
 # for the multiples of five print “Buzz”. 
 # For numbers which are multiples of 
 # both three and five print “FizzBuzz”.
+
+# We know how to print
+# print "hello"
+
+for i in (1..100)
+    print i, "\n"
+end
