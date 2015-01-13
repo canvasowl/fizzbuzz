@@ -9,5 +9,13 @@
 # print "hello"
 
 for i in (1..100)
-    print i, "\n"
+	if i % 3 == 0 && i % 5 == 0
+		print "FizzbBuzz", "\n"
+	elsif i % 5 == 0
+		print "Buzz", "\n"
+	elsif i % 3 == 0
+    	print "Fizz", "\n"
+    else
+    	print i, "\n"
+    end
 end
